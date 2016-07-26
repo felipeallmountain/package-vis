@@ -47,7 +47,9 @@ class Preloader extends React.Component {
       onComplete={this.state.onComplete}
       states={states(this.props)}
       transitions={transitions(this.props)}
-    />;
+    >
+      <p>LOADINGG</p>
+    </ReactF1>;
   }
 };
 

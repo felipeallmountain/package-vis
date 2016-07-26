@@ -32,7 +32,9 @@ class Landing extends React.Component {
       transitions={transitions(this.props)}
       style={style}
     >
-      <div id="Landing" data-f1="container"></div>
+      <div id="Landing" data-f1="container">
+        <h1>fuaaa</h1>
+      </div>
     </ReactF1>;
   }
 };
